@@ -1,4 +1,5 @@
 print("hello World")
+#This is an comment
 print("this is my first program in python")
 number=int(input("enter an integer:"))
 if number>2 and number<10 and number%2==0:
