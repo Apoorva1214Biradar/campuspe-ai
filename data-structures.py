@@ -52,3 +52,35 @@ print(squares)
 
 
 #Tuples
+coordiantes=(10,20)
+person=("Apoorva",23,"Chitradurga")
+#print(person[2])
+name,age,district=person
+#print(f"I am {name},from {district}.I am {age} years old")
+
+
+#dictionaries
+mathclass={}
+student={
+    "name":"Apoorva",
+    "age":23,
+    "garde":"A",
+
+}
+#print(student["name"])
+student["phone"]="67672879298"
+print(student.get("phone","users phone doesnt exist"))
+
+# student["age"]=26
+# print(student)
+
+# student.pop("name")
+# print(student)
+
+
+#Set
+
+numbers=[1,2,3,1,3,4,3,6,7,888,9,2,4,5,5,5,5,5,5]
+u_numbers=set(numbers)
+print(u_numbers)
+u_numbers.discard(999)
